@@ -2,11 +2,11 @@ If you would like to run this program, then you will need to have a few things i
 
 First of all, make sure that you are running it on Python 3.
 
-Next, make sure that you have the Plotly and Python-Chess libraries installed. These are both available on PyPi.
+Next, make sure that you have the Plotly and Python-Shogi libraries installed. These are both available on PyPi.
 That means that you can download them with the following commands in your terminal:
 
 pip install plotly
-pip install python-chess
+pip install python-shogi
 
 Once you have done so, you can run the code!
 

@@ -1,14 +1,14 @@
-import pgn
+import psn
 
 
 def parse_games(database, depth, custom_branching, color, name):
     database = open(database)
-    pgn_text = database.read()
+    psn_text = database.read()
     database.close()
 
     color = color.lower()
 
-    games = pgn.loads(pgn_text)
+    games = psn.loads(psn_text)
 
     all_games = []
     all_ratios = []

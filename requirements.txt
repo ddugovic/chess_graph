@@ -1,2 +1,3 @@
 plotly==4.6.0
-pgnparser==1.0
+psnparser==1.0
+python-shogi=1.0.9

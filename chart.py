@@ -1,8 +1,8 @@
-# A Graphical Visualization of Chess Openings
+# A Graphical Visualization of Shogi Openings
 # April 2020
 
 # Provides a colorful multi-level pie chart which shows the popularity of openings after moves
-# For more info, go to www.github.com/Destaq/chess_graph
+# For more info, go to www.github.com/Destaq/shogi_graph
 
 
 import plotly.graph_objects as go
@@ -157,7 +157,7 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
         fig.update_layout(
             margin=dict(t=30, l=30, r=30, b=0),
             title = {
-                'text': "The Chess Opening Graph",
+                'text': "The Shogi Opening Graph",
                 'xanchor': 'center',
                 'y':0.995,
                 'x':0.4715,
@@ -194,7 +194,7 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
         fig.update_layout(
             margin=dict(t=30, l=30, r=30, b=0),
             title = {
-                'text': "The Chess Opening Graph",
+                'text': "The Shogi Opening Graph",
                 'xanchor': 'center',
                 'y':0.995,
                 'x':0.50,
@@ -253,7 +253,7 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
             analyzed = eco_positions.index(ids[i])
             hovertip_openings.append(eco_names[analyzed])
         else:
-            hovertip_openings.append('Non-ECO Opening')
+            hovertip_openings.append('Non-ESO Opening')
 
     fig = form(ids, labels, parents, values, full_ratios, full_ratios, percentage_everything, hovertip_openings, shade)
 

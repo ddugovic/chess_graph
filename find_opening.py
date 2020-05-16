@@ -4,10 +4,10 @@ codes = []
 names = []
 positions = []
 
-#example ids: ['e4', ('e4' , 'e5')]
+#example ids: ['P-26', ('P-26' , 'P-84')]
 
 def create_openings():
-    with open('elo_reading/openings_sheet.csv', 'r') as file:
+    with open('openings.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             codes.append(row[0])

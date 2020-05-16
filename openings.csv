@@ -1,0 +1,11 @@
+ESO,name,moves
+A00,"Static Rook, opposition",P-26 P-34 P-76 P-44
+A10,Yagura,P-76 P-84 S-68
+A20,Bishop Exchange,P-76 P-84 P-26 P-85
+A30,Side Pawn Picker,P-76 P-34 P-26 P-84
+A40,Double Wing Attack,P-26 P-84 P-25 P-85
+B00,Double Swinging Rook,P-76 P-34 P-66
+B10,Opposing Rook,P-76 P-84 B-77 P-85 R-88
+B20,3rd-file Rook,P-76 P-84 R-78 P-34
+B30,4th-file Rook,P-76 P-34 R-68 P-84
+B40,Central Rook,P-76 P-84 P-56 P-85
